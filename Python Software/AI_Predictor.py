@@ -9,7 +9,7 @@ import google.generativeai as genai
 from tkinter import messagebox
 
 # Configure Gemini
-genai.configure(api_key="AIzaSyCUcQ0vy_Rt3Qqqn1xWx2dPDTyxPoU9FK0")
+genai.configure(api_key="Insert your key")
 
 class AIPredictor(ctk.CTk):
     def __init__(self):
